@@ -285,7 +285,7 @@ h2.pagetitle {
 }
 .navbar .brand a {
 	padding: 0;
-	color: #fff;
+	color: #000;
 	font-size: 1.75em;
 	margin-left: 0;
 	font-weight: 400;
@@ -315,7 +315,7 @@ h2.pagetitle {
 }
 ul#menu-main > li > a {
 	font-weight: 600;
-	color: #fff;
+	color: #000;
 	font-size:14px;
 	text-transform:uppercase;
 }
@@ -344,7 +344,7 @@ ul#menu-main > li > a:focus {
 	width: 100%;
 	min-height: 600px;
 	margin-top: -60px;
-	padding-top:160px;
+	padding-top:30px;
 	text-align:center;
 }
 
@@ -367,11 +367,12 @@ ul#menu-main > li > a:focus {
 header .logo {
 	text-align:center;
 	margin-bottom:30px;
+	/* margin-top:1px; */
 }
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/8bg.png) no-repeat center center fixed;
+	background: #444 url(../img/bg/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -379,13 +380,14 @@ header .logo {
 }
 
 #main-flexslider ul.slides li p {
-	font-size: 72px;
+	font-size: 60px;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
 	line-height: 1;
-	color:#D6CE14;
+	color:#7D0E29;
+	font-family: "Times New Roman", Times, serif;
 }
 #main-flexslider.flexslider {
 		margin:0;
@@ -476,7 +478,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#FF9666;
 }
 
 .spacer.green,.section.green h4 {
